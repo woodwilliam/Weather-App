@@ -1,7 +1,5 @@
 const apiKey = `24703eb16adf489d3c617deb6f8ac694`;
 const searchFormEl = document.querySelector('#formfrommorf');
-let long = testLONG;
-let lat = testLAT;
 let searchInputVal = '';
 const getWeather = function(data) {
     const apiURL = `https://api.openweathermap.org/data/2.5/forecast?q=${data}&appid=${apiKey}`;
